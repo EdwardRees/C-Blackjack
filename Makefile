@@ -3,7 +3,7 @@ bin=blackjack
 
 # Compiler/linker flags
 CFLAGS += -g -Wall -fPIC
-LDLIBS += -lm -lncurses
+LDLIBS += -lm
 LDFLAGS +=
 
 # Source C files
