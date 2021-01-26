@@ -61,10 +61,10 @@ int main(int argc, char *argv[])
     }
   }
 
-  free(p1_hand);
   free(p1_hand->cards);
-  free(p2_hand);
+  free(p1_hand);
   free(p2_hand->cards);
+  free(p2_hand);
   free(card_deck);
   return 0;
 }
